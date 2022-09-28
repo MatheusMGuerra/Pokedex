@@ -37,4 +37,13 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-70%, -120%);
+    height: 13%;/*possível retirada*/
+}
+
+.informações {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-90%, 110%);
+    color: rgb(53, 52, 52);
 }
