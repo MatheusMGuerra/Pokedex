@@ -46,4 +46,5 @@ main {
     top: 50%;
     transform: translate(-90%, 110%);
     color: rgb(53, 52, 52);
+    font-size: 1em;
 }
