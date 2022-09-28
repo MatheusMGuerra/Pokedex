@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'nintendo';
+    src: url('../files/fonts/nintendo_ds_bios/Nintendo-DS-BIOS.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root {
+--fonte-padrao: 'nintendo', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(151, 151, 255), white);
+    text-align: center;
+    height: 100vh;
+}
+
+main {
+    margin: 1em;
+    display: inline-block;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+}
+
+.pokemon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-70%, -120%);
+}
