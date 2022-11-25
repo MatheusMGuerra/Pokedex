@@ -44,7 +44,7 @@ main {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-90%, 110%);
+    transform: translate(-70%, 110%);
     color: rgb(53, 52, 52);
-    font-size: 4.2vh;
+    font-size: 3.8vh;
 }
