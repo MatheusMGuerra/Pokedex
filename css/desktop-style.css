@@ -1,0 +1,12 @@
+@charset "UTF-¨8";
+
+@media screen  and (min-width: 992px) {
+    .informações {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-80%, 130%);
+        color: rgb(53, 52, 52);
+        font-size: 4.6vh;
+    }
+}
